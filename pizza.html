@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+
+}
+ body{
+   background-image: url("cooking-cuisine-dish-1030947.jpg");
+   background-size: 100%;
+ }
+
+.header {
+  color: #8B2383;
+  padding: 15px;
+  background-color: #F1BCE6;
+}
+
+.footer {
+  color: white;
+  padding: 15px;
+  background-color: #865279;
+  background-size: 100%;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 25%;
+}
+
+.content {
+  width: 75%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #F6BFF3;
+  color: #8B2383;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Pizza</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li onclick="myFunctioncn()">Brik Oven</li>
+      <li onclick="myFunctionbm()">Fenny's Lounge</li>
+      <li onclick="myFunctioncc()">Chianti</li>
+      <li onclick="myFunctionbs()">Napoli Italian Bistro</li>
+      <li onclick="myFunctionts()">California Pizza Kitchen</li>
+      <li onclick="myFunctionbc()">Onesta</li>
+      <li onclick="myFunctiontd()">Giselle Resto Cafe</li>
+      <li onclick="myFunctionbu()">Little Italy</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1 id="a">Brik Oven</h1>
+    <p id="b">Baskin Robbins is an international Cream Parlor</p>
+    <p id="c">Was found in the United States.</p>
+    <div class="mapouter" ><div class="gmap_canvas"><iframe id="d" width="400" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=Oracle%20Financial%20Service%20Software%20Ltd%2C%20SEZ%20Global%20Axis%2C%20EPIP%20Zone%2C%20Whitefield%2C%20Bangalore%2C%20Whitefield%2C%20East%20Bangalore%2C%20KIADB%20Export%20Promotion%20Industrial%20Area%2C%20Whitefield%2C%20Bengaluru%2C%20Karnataka%20560066&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:250px;width:400px;}.gmap_canvas {overflow:hidden;background:none!important;height:250px;width:400px;}</style></div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Uses
+
+  esfdgfx<br>
+efsd<br>
+sefgd<br>
+   </p>
+</div>
+
+
+<script>
+function myFunctioncn() {
+  document.getElementById("a").innerHTML= "Brik Oven";
+  document.getElementById("b").innerHTML= "Baskin Robbins is an international Cream Parlor";
+  document.getElementById("c").innerHTML= "Was found in the United States.";
+  document.getElementById("d").src="https://maps.google.com/maps?q=Oracle%20Financial%20Service%20Software%20Ltd%2C%20SEZ%20Global%20Axis%2C%20EPIP%20Zone%2C%20Whitefield%2C%20Bangalore%2C%20Whitefield%2C%20East%20Bangalore%2C%20KIADB%20Export%20Promotion%20Industrial%20Area%2C%20Whitefield%2C%20Bengaluru%2C%20Karnataka%20560066&t=&z=13&ie=UTF8&iwloc=&output=embed";
+}
+
+function myFunctionbm() {
+  document.getElementById("a").innerHTML= "Fenny's Lounge";
+  document.getElementById("b").innerHTML= "Corner House is an international Cream Parlor";
+  document.getElementById("c").innerHTML= "Was found in the European Union.";
+  document.getElementById("d").src="https://maps.google.com/maps?q=Corner%20House%2C%20614%2C%206th%20A%20Main%20Rd%2C%20HRBR%20Layout%202nd%20Block%2C%20HRBR%20Layout%2C%20Kalyan%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560043&t=&z=19&ie=UTF8&iwloc=&output=embed";
+}
+function myFunctioncc() {
+  document.getElementById("a").innerHTML= "Chianti";
+  document.getElementById("b").innerHTML= "Corner House is an international Cream Parlor";
+  document.getElementById("c").innerHTML= "Was found in the European Union.";
+  document.getElementById("d").src="https://maps.google.com/maps?q=Corner%20House%2C%20614%2C%206th%20A%20Main%20Rd%2C%20HRBR%20Layout%202nd%20Block%2C%20HRBR%20Layout%2C%20Kalyan%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560043&t=&z=19&ie=UTF8&iwloc=&output=embed";
+}
+function myFunctionbs() {
+  document.getElementById("a").innerHTML= "Napoli Italian Bistro";
+  document.getElementById("b").innerHTML= "Corner House is an international Cream Parlor";
+  document.getElementById("c").innerHTML= "Was found in the European Union.";
+  document.getElementById("d").src="https://maps.google.com/maps?q=Corner%20House%2C%20614%2C%206th%20A%20Main%20Rd%2C%20HRBR%20Layout%202nd%20Block%2C%20HRBR%20Layout%2C%20Kalyan%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560043&t=&z=19&ie=UTF8&iwloc=&output=embed";
+}
+function myFunctionts() {
+  document.getElementById("a").innerHTML= "California Pizza Kitchen";
+  document.getElementById("b").innerHTML= "Corner House is an international Cream Parlor";
+  document.getElementById("c").innerHTML= "Was found in the European Union.";
+  document.getElementById("d").src="https://maps.google.com/maps?q=Corner%20House%2C%20614%2C%206th%20A%20Main%20Rd%2C%20HRBR%20Layout%202nd%20Block%2C%20HRBR%20Layout%2C%20Kalyan%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560043&t=&z=19&ie=UTF8&iwloc=&output=embed";
+}
+function myFunctionbc() {
+  document.getElementById("a").innerHTML= "Onesta";
+  document.getElementById("b").innerHTML= "Corner House is an international Cream Parlor";
+  document.getElementById("c").innerHTML= "Was found in the European Union.";
+  document.getElementById("d").src="https://maps.google.com/maps?q=Corner%20House%2C%20614%2C%206th%20A%20Main%20Rd%2C%20HRBR%20Layout%202nd%20Block%2C%20HRBR%20Layout%2C%20Kalyan%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560043&t=&z=19&ie=UTF8&iwloc=&output=embed";
+}
+function myFunctiontd() {
+  document.getElementById("a").innerHTML= "Giselle Resto Cafe";
+  document.getElementById("b").innerHTML= "Corner House is an international Cream Parlor";
+  document.getElementById("c").innerHTML= "Was found in the European Union.";
+  document.getElementById("d").src="https://maps.google.com/maps?q=Corner%20House%2C%20614%2C%206th%20A%20Main%20Rd%2C%20HRBR%20Layout%202nd%20Block%2C%20HRBR%20Layout%2C%20Kalyan%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560043&t=&z=19&ie=UTF8&iwloc=&output=embed";
+}
+function myFunctionbu() {
+  document.getElementById("a").innerHTML= "Little Italy";
+  document.getElementById("b").innerHTML= "Corner House is an international Cream Parlor";
+  document.getElementById("c").innerHTML= "Was found in the European Union.";
+  document.getElementById("d").src="https://maps.google.com/maps?q=Corner%20House%2C%20614%2C%206th%20A%20Main%20Rd%2C%20HRBR%20Layout%202nd%20Block%2C%20HRBR%20Layout%2C%20Kalyan%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560043&t=&z=19&ie=UTF8&iwloc=&output=embed";
+}
+</script>
+</body>
+</html>

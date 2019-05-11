@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+
+}
+ body{
+   background-image: url("caffeine-coffee-coffee-beans-585750.jpg");
+   background-size: 100% ;
+ }
+
+ .header {
+   color: #E9D5CA;
+   padding: 15px;
+   background-color: #693C22;
+ }
+
+.footer {
+  color: white;
+  padding: 15px;
+  background-color: #8F5D41;
+  background-size: 100%;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 25%;
+}
+
+.content {
+  width: 75%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #9B7057;
+  color: #E9D5CA;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Coffee</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li onclick="myFunctioncn()">Starbucks</li>
+      <li onclick="myFunctionbm()">Matteo</li>
+      <li onclick="myFunctioncc()">Brahmin's Coffee Bar</li>
+      <li onclick="myFunctionbs()">The Flying Squirrel</li>
+      <li onclick="myFunctionts()">Infinite Tea</li>
+      <li onclick="myFunctionbc()">Cafe Coffe Day</li>
+      <li onclick="myFunctiontd()">Brick's Cafe</li>
+      <li onclick="myFunctionbu()">Maiya's</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1 id="a">Starbucks</h1>
+    <p id="b">Starbucks is an international Cafeteria</p>
+    <p id="c">Was found in the United States.</p>
+    <div class="mapouter" ><div class="gmap_canvas"><iframe id="d" width="400" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=Oracle%20Financial%20Service%20Software%20Ltd%2C%20SEZ%20Global%20Axis%2C%20EPIP%20Zone%2C%20Whitefield%2C%20Bangalore%2C%20Whitefield%2C%20East%20Bangalore%2C%20KIADB%20Export%20Promotion%20Industrial%20Area%2C%20Whitefield%2C%20Bengaluru%2C%20Karnataka%20560066&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:250px;width:400px;}.gmap_canvas {overflow:hidden;background:none!important;height:250px;width:400px;}</style></div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Uses
+
+  esfdgfx<br>
+efsd<br>
+sefgd<br>
+   </p>
+</div>
+
+
+<script>
+function myFunctioncn() {
+  document.getElementById("a").innerHTML= "Starbucks";
+  document.getElementById("b").innerHTML= "Starbucks is an international Cafeteria";
+  document.getElementById("c").innerHTML= "Was found in the United States.";
+  document.getElementById("d").src="https://maps.google.com/maps?q=Oracle%20Financial%20Service%20Software%20Ltd%2C%20SEZ%20Global%20Axis%2C%20EPIP%20Zone%2C%20Whitefield%2C%20Bangalore%2C%20Whitefield%2C%20East%20Bangalore%2C%20KIADB%20Export%20Promotion%20Industrial%20Area%2C%20Whitefield%2C%20Bengaluru%2C%20Karnataka%20560066&t=&z=13&ie=UTF8&iwloc=&output=embed";
+}
+
+function myFunctionbm() {
+  document.getElementById("a").innerHTML= "Matteo";
+  document.getElementById("b").innerHTML= "Corner House is an international Cream Parlor";
+  document.getElementById("c").innerHTML= "Was found in the European Union.";
+  document.getElementById("d").src="https://maps.google.com/maps?q=Corner%20House%2C%20614%2C%206th%20A%20Main%20Rd%2C%20HRBR%20Layout%202nd%20Block%2C%20HRBR%20Layout%2C%20Kalyan%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560043&t=&z=19&ie=UTF8&iwloc=&output=embed";
+}
+function myFunctioncc() {
+  document.getElementById("a").innerHTML= "Brahmin's Coffee Bar";
+  document.getElementById("b").innerHTML= "Corner House is an international Cream Parlor";
+  document.getElementById("c").innerHTML= "Was found in the European Union.";
+  document.getElementById("d").src="https://maps.google.com/maps?q=Corner%20House%2C%20614%2C%206th%20A%20Main%20Rd%2C%20HRBR%20Layout%202nd%20Block%2C%20HRBR%20Layout%2C%20Kalyan%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560043&t=&z=19&ie=UTF8&iwloc=&output=embed";
+}
+function myFunctionbs() {
+  document.getElementById("a").innerHTML= "The Flying Squirrel";
+  document.getElementById("b").innerHTML= "Corner House is an international Cream Parlor";
+  document.getElementById("c").innerHTML= "Was found in the European Union.";
+  document.getElementById("d").src="https://maps.google.com/maps?q=Corner%20House%2C%20614%2C%206th%20A%20Main%20Rd%2C%20HRBR%20Layout%202nd%20Block%2C%20HRBR%20Layout%2C%20Kalyan%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560043&t=&z=19&ie=UTF8&iwloc=&output=embed";
+}
+function myFunctionts() {
+  document.getElementById("a").innerHTML= "Infinite Tea";
+  document.getElementById("b").innerHTML= "Corner House is an international Cream Parlor";
+  document.getElementById("c").innerHTML= "Was found in the European Union.";
+  document.getElementById("d").src="https://maps.google.com/maps?q=Corner%20House%2C%20614%2C%206th%20A%20Main%20Rd%2C%20HRBR%20Layout%202nd%20Block%2C%20HRBR%20Layout%2C%20Kalyan%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560043&t=&z=19&ie=UTF8&iwloc=&output=embed";
+}
+function myFunctionbc() {
+  document.getElementById("a").innerHTML= "Cafe Coffe Day";
+  document.getElementById("b").innerHTML= "Corner House is an international Cream Parlor";
+  document.getElementById("c").innerHTML= "Was found in the European Union.";
+  document.getElementById("d").src="https://maps.google.com/maps?q=Corner%20House%2C%20614%2C%206th%20A%20Main%20Rd%2C%20HRBR%20Layout%202nd%20Block%2C%20HRBR%20Layout%2C%20Kalyan%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560043&t=&z=19&ie=UTF8&iwloc=&output=embed";
+}
+function myFunctiontd() {
+  document.getElementById("a").innerHTML= "Brick's Cafe";
+  document.getElementById("b").innerHTML= "Corner House is an international Cream Parlor";
+  document.getElementById("c").innerHTML= "Was found in the European Union.";
+  document.getElementById("d").src="https://maps.google.com/maps?q=Corner%20House%2C%20614%2C%206th%20A%20Main%20Rd%2C%20HRBR%20Layout%202nd%20Block%2C%20HRBR%20Layout%2C%20Kalyan%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560043&t=&z=19&ie=UTF8&iwloc=&output=embed";
+}
+function myFunctionbu() {
+  document.getElementById("a").innerHTML= "Maiya's";
+  document.getElementById("b").innerHTML= "Corner House is an international Cream Parlor";
+  document.getElementById("c").innerHTML= "Was found in the European Union.";
+  document.getElementById("d").src="https://maps.google.com/maps?q=Corner%20House%2C%20614%2C%206th%20A%20Main%20Rd%2C%20HRBR%20Layout%202nd%20Block%2C%20HRBR%20Layout%2C%20Kalyan%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560043&t=&z=19&ie=UTF8&iwloc=&output=embed";
+}
+</script>
+</body>
+</html>
